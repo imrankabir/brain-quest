@@ -1,0 +1,2 @@
+import {translations} from '../data/translations.js';
+export class I18n{constructor(language='en'){this.language=language}setLanguage(lang){this.language=translations[lang]?lang:'en';document.documentElement.lang=this.language;document.documentElement.dir=this.language==='ur'?'rtl':'ltr';document.body.classList.toggle('rtl',this.language==='ur')}t(key){return translations[this.language]?.[key]??translations.en[key]??key}toggle(){this.setLanguage(this.language==='en'?'ur':'en')}}

@@ -1,0 +1,1 @@
+export class GameEngine{constructor(){this.current=null}start(module){this.stop();this.current=module}pause(){this.current?.pause?.()}resume(){this.current?.resume?.()}stop(){this.current?.destroy?.();this.current=null}}

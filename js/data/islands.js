@@ -1,0 +1,1 @@
+export const ISLANDS=[{id:'memory',titleKey:'memory',descKey:'memoryDesc',emoji:'🌳',levels:20,theme:'memory'},{id:'numbers',titleKey:'numbers',descKey:'numbersDesc',emoji:'🔢',levels:30,theme:'numbers'},{id:'logic',titleKey:'logic',descKey:'logicDesc',emoji:'🧩',levels:20,theme:'logic'},{id:'pattern',titleKey:'pattern',descKey:'patternDesc',emoji:'🐠',levels:20,theme:'pattern'}];

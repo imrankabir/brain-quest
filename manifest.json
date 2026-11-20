@@ -1,0 +1,10 @@
+{
+  "name": "BrainQuest — The Adventure of Smart Minds",
+  "short_name": "BrainQuest",
+  "description": "A playful educational adventure for children.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#101b3d",
+  "theme_color": "#18264f",
+  "icons": []
+}
